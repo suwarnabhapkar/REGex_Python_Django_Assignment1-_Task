@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML_Assignment_5</title>
+</head>
+<body>
+    
+    <form name="myf" action="" method="get">
+    <h1>Zoo Keeper Application For </h1>
+    <i>Please complete the form.Mandatory fields are marked with a *</i>
+    <br>
+     <fieldset>
+        <legend><strong>CONTACT DETAILS</strong></legend>
+        <table cellpadding="3">
+            <tr>
+                <td>
+                    <label for="Name">Name *</label>
+                </td>
+                <td><input type="text" id="I_name"><br>
+
+            </tr>
+            <tr>
+                <td><label for="Telephone">Telephone</label></td>
+                <td><input type="number" id="I_tphone"></td>
+            </tr>
+            <tr>
+                <td><label for="Email">Email*</label></td>
+                <td><input type="text" id="I_email"></td>
+            </tr>
+        </table>
+            </fieldset>
+        
+            <fieldset>
+                <legend><strong>PERSONAL INFORMATION</strong></legend>
+            <table cellpadding="3">
+            <tr>
+                <td>
+                    <label for="Age">Age*</label></td>
+                    <td><input type="number" id="I_age"></td>
+            </tr>
+            <tr>
+                <td><label for="Gender">Gender</label></td>
+                <td>
+                <!-- <input type='radio' name="sex" value="male" id="I_male" /><label for="I_male">Male</label>
+                <input type="radio" name="sex" value="female" id="I_female"/><label for="I_female">Female</label>
+                <input type="radio" name="other" value="other" id="I_other"/><label for="I_other">Other</label> -->
+                 <select>
+                     <option>Click Here</option>
+                     <option>Male</option>
+                     <option>Female</option>
+                     <option>Other</option>
+                 </select>   
+            </td>
+            </tr>
+            <tr>
+                <td><label for="I_address">When did you <br>first know you <br>wanted to be <br>a zoo-keeper? </label></td>
+                <td>
+                    <textarea id="I_address" cols="20" rows="6"></textarea>
+                </td>
+            </tr>
+        </table>
+        </fieldset>
+        
+<fieldset>
+    <legend><strong>PICK YOUR FAVORITE ANIMALS</strong></legend>
+    <table cellpadding="3">
+        <tr>
+            <td>
+                <input type="checkbox" name="zebra" value="zebra" id="I_zebra" /><lable for="I_zebra">Zebra</lable>
+                <input type="checkbox" name="cat" value="cat" id="I_cat" /><lable for="I_cat">Cat</lable>
+                <input type="checkbox" name="anaconda" value="anaconda" id="I_anaconda" /><lable for="I_anaconda">Anaconda</lable>
+                <input type="checkbox" name="human" value="human" id="I_human" /><lable for="I_human">Human</lable><br>
+                <input type="checkbox" name="elephant" value="elephant" id="I_elephant" /><lable for='I_elephant'>Elephant</lable>
+                <input type="checkbox" name="wildebeest" value="wildebeest" id="I_wildebeest" /><lable for="I_wildebeest">Wildebeest</lable>
+                <input type="checkbox" name="pigeon" value="pigeon" id="I_pigeon" /><lable for="I_pigeon">Pigeon</lable>
+                <input type="checkbox" name="crab" value="crab" id="I_crab" /><lable for='I_crab'>Crab</lable><br>
+            </td>
+        </tr>
+    </table>
+</fieldset>
+    
+    
+    
+
+
+    
+    
+
+</fieldset>
+<br>
+
+    <tr>
+<td><input type="submit" value="Submit Application" /></TD>
+</tr>
+</form>
+</body>
+</html>
